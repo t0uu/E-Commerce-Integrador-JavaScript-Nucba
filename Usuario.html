@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Usuario</title>
+</head>
+<body>
+    <div class="lds-ring loader" id="loader"><div></div><div></div><div></div><div></div></div>
+    <h1>SAMPLE</h1>
+    <nav class="NavMobile" id="NavMobile">
+        <img src="/assets/Icons/bars-staggered-solid.svg" alt="" class="bars" id="View">
+    <div class="BarList" id="Barlist">
+        <img src="/assets/Icons/x-solid.svg" alt="" class="Cruz" id="Cruz">
+        <ul>
+            <li><a href="/src/Productos.html">Productos</a></li>
+            <li><a href="/src/nosotros.html">Nosotros</a> </li>
+            <li><a href="/src/Contacto.html">Contacto</a></li>
+            <li><a href="/src/Usuario.html">Usuario</a></li>
+        </ul>
+    </div>
+    <a href="/src/index.html">
+        <img src="/assets/PNG/Recurso 1.png" alt="">
+    </a>
+    <div class="CartList">
+        <img src="/assets/Icons/local_mall_FILL0_wght400_GRAD0_opsz48.svg" alt="" class="ViewCart" id="ViewCart">
+        <div class="CartBag" id="CartBag">
+            <img src="/assets/Icons/x-solid.svg" alt="" class="CloseCart" id="CloseCart">
+            <div id="carrito" class="Carrito">
+            </div>
+            <div id="TotalProductos" class="TotalProductos">
+            </div>
+        </div>
+    </div>
+</nav>
+<Section class="UsuarioSection">
+    <div class="NuevosUsuarios">
+        <h2>Nuevos Usuarios</h2>
+        <p>Creando tu cuenta podras cargar tus datos automaticamente a la hora de comprar productos,obtendras descuentos y muchos beneficios.
+        </p>
+        <button> Crear Cuenta</button>
+    </div>
+    <div class="IniciarSesion">
+        <h2>Iniciar Sesión</h2>
+        <form class="FormUser">
+            <label for="emailUser"></label>
+            <input type="email" name="emailUser" id="emailUser" placeholder="Correo Electronico">
+            <label for="passwordUser">
+             <input type="password" name="password" id="passwordUser" placeholder="Contraseña">   
+            </label>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+
+</Section>
+
+
+
+<footer>
+    <a href="/src/index.html">
+        <img src="/assets/PNG/SAMPLE-WHITE.png" alt="" class="LogoFooter">
+    </a>
+    <nav>
+        <a href="/src/Productos.html">Productos</a>
+        <a href="/src/nosotros.html">Nosotros</a>
+        <a href="/src/Contacto.html">Contacto</a>
+    </nav>
+    <div class="RRSS">
+        <a href="#">
+            <img src="/assets/Icons/instagram-brands.svg" alt="">
+        </a>
+        <a href="#">
+            <img src="/assets/Icons/envelope-solid.svg" alt="">
+        </a>
+        <a href="#">
+            <img src="/assets/Icons/facebook-f-brands.svg" alt="">
+        </a>
+    </div>
+</footer>
+<script type="module" src="/src/index.js"></script>
+</body>
+</html>

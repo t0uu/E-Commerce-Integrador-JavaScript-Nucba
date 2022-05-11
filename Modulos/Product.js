@@ -4,8 +4,6 @@ const TotalProductos = document.getElementById('TotalProductos');
 const TotalItems = document.getElementById('TotalItems');
 
 
-// import {Productos} from './Data.js'
-// No genero importacion en este caso porque me genera errores y para cumplir en tiempo y forma con la tarea lo hago anclando los links de los modulos!
 function RenderProductos(){
   ContainerProduct.innerHTML = ''
  Productos.forEach((product) =>{

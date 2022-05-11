@@ -1,6 +1,6 @@
 
 // Navbar Mobile | Cart
-import {NavbarView} from '../Modules/Navbar.js'
+import {NavbarView} from './Modulos/Navbar.js'
 NavbarView();
 
 window.addEventListener("load", () => {

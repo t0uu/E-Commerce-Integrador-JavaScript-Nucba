@@ -90,7 +90,7 @@ function HoodieView(){
 
 
 // Iniciar Array vacío para agregar los Productos
-let Cart = JSON.parse(localStorage.getItem("CART"));
+let Cart = [];
 updateCart()
 // Add To Cart
 function addToCart(id){
@@ -112,8 +112,6 @@ function addToCart(id){
 function updateCart(){
   renderCartItems();
   renderSubtotal();
-
-  localStorage.setItem("CART",JSON.stringify(Cart));
 }
 
 function renderSubtotal(){

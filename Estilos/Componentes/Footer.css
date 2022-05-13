@@ -1,0 +1,27 @@
+@media(min-width:320px){
+
+    
+    footer{
+        background-color:#181818;
+        align-items: center;
+    text-align: center;
+}
+footer .LogoFooter{
+    width: 120px;
+    margin: 0.7rem;
+}
+footer nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+}
+.RRSS a{
+    text-decoration: none;
+}
+.RRSS a img{
+    filter: invert(100%);
+    width: 20px;
+    height: 20px;
+    margin: 0.5rem;
+}
+}

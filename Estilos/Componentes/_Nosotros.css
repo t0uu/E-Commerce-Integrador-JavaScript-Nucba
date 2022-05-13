@@ -1,0 +1,22 @@
+@media(min-width:320px){
+    
+    .NosotrosSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+        padding: 5rem;
+    }
+    .NosotrosSection h2{
+        font-size: 2rem;
+    }
+    .NosotrosSection p{
+        max-width: 500px;
+        text-align: center;
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    .NosotrosSection .NosotrosImg{
+        width: 15rem;
+    }
+}

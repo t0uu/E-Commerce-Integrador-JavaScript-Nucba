@@ -1,0 +1,76 @@
+@media(min-width:320px){
+     
+    .ContainerCart{
+        display: flex;
+       align-items: center;
+       flex-direction:column;
+       border-bottom: 1px solid rgba(0, 0, 0, 0.299);
+        margin: 2rem;
+    }
+   
+    .ContainerCart .ImgCart{
+        width: 6rem;
+        height: 6rem;
+    }
+    .ContainerCart span{
+        margin-left: 1rem;
+        padding: 0.3rem;
+    }
+    
+    .ContenedorSumResta{
+        display: flex;
+       flex-direction: column;
+        width: 12rem;
+        margin-left: 1rem;
+    }
+    .ContenedorSumResta h2{
+        font-size: 1.3rem;
+        margin: 0.5rem;
+    }
+    .ContenedorSumResta .btn{
+        border: none;
+        width: 4rem;
+        padding: 0.2rem;
+        height: 20px;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        background-color: transparent;
+        color: black;
+    }
+    .ContenedorSumResta .Precio{
+        font-weight: 400;
+    }
+    .BoxCantidad .trash{
+        width: 1.3rem;
+    }
+    .BoxCantidad{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .BoxCantidad .Cantidad{
+        font-weight: 400;
+    }
+    .TotalProductos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .TotalProductos button{
+        margin: 1rem auto;
+    }
+    .addCart{
+        background-color: black;
+        color: white;
+        border-radius: 2px;
+        padding: 0.5rem;
+        margin: 1rem;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+    }
+    .addCart:hover{
+        background-color: rgba(0, 0, 0, 0.61);
+    }
+}

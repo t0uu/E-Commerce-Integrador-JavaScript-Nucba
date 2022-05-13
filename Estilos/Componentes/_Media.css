@@ -1,0 +1,156 @@
+@media(min-width: 375px){
+    .TextProduct{
+        width: 15rem;
+    }
+    .NosotrosSection .NosotrosImg{
+        width: 20rem;
+    }
+}
+
+
+@media(min-width: 411px){
+  
+}
+
+
+@media(min-width: 768px){
+    footer nav{
+        width: 400px;
+        margin: auto;
+    }
+
+    .NosotrosSection .NosotrosImg{
+        width: 25rem;
+    }
+    .ContainerCart{
+    flex-direction: column;
+    }
+    .ContainerCart h2{
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    .BoxCantidad{
+        width: 10rem;
+    }
+    .ContainerCart .trash{
+        top: 0.5rem;
+        left: 4rem;
+    }
+    
+ 
+    .ContColl h2{
+        margin: 1rem 0rem 1rem 8rem;
+        font-size: 1rem;
+    }
+    .AnclaColl{
+        margin: 1rem 11rem 1rem 0rem;
+     
+        font-size: 1rem;
+    }
+}
+
+@media(min-width: 1024px){
+    
+    .NavMobile{
+        margin: auto;
+    }
+    
+    .ContainerProduct{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        justify-content: center;
+        grid-template-rows: auto auto auto auto;
+        margin: 2rem 0rem;
+    }
+   
+    .addCart{
+        background-color: black;
+        color: white;
+        border-radius: 2px;
+        padding: 0.5rem;
+        margin: 1rem;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+    }
+    .addCart:hover{
+        background-color: rgba(0, 0, 0, 0.61);
+    }
+    
+    .TextProduct{
+        width: 240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Newsletter {
+        max-width: 500px;
+        margin: 1.2rem auto;
+    }
+    .Newsletter h2{
+        font-size: 2rem;
+    }
+    footer nav{
+        margin: 0.5rem auto;
+    }
+
+    .NosotrosSection .NosotrosImg{
+        width: 35rem;
+    }
+    .UsuarioSection{
+        flex-direction: row;
+    }
+    .NuevosUsuarios p{
+        width: 25rem;
+        font-size: 1.2rem;
+    }
+    .FormUser input{
+        width: 25rem;
+    }
+    .FormUser button{
+        margin: 1rem auto;
+    }
+    .SectionNuevaColeccion .BtnCollecion{
+        padding: 1.3rem 4rem;
+    }
+    .ContainerCart{
+        flex-direction: row;
+    }
+
+    #Filtrar{
+        align-items: center;
+        cursor: pointer;
+    }
+    .ContainerFilter{
+        margin: auto;
+        text-align: left;
+        border-bottom: 1px solid black;
+        width: 50%;
+    }
+    .ContainerBtns{
+        margin: auto;
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+    }
+    .switchContainerBtns{
+        display: none;
+        transition:cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    }
+    .ContainerBtns button{
+        text-transform: uppercase;
+        background-color: transparent;
+        border: none;
+        margin: 0rem 1rem;
+    }
+    .ContainerBtns button:hover{
+        color: rgb(78, 78, 78);
+        cursor: pointer;
+    }
+
+    .SectionNuevaColeccion{
+        flex-direction:row;
+        }
+}

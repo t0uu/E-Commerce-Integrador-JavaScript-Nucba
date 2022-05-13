@@ -183,7 +183,6 @@ Filtrar.addEventListener('click', ()=>{
     ContainerBtns.classList.remove('switchContainerBtns')
     gsap.fromTo(ContainerBtns, {opacity: 0}, {opacity: 1, duration:3})
   }else{
-
     ContainerBtns.classList.add('switchContainerBtns')
     Filtrar.innerHTML = 'Filter \&uarr;'
   }

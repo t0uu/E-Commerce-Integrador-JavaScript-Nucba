@@ -1,0 +1,9 @@
+@media(min-width:320px){
+    main #background{
+        background-image: url(/assets/Productos-Imagenes/timothy-rose-y_ruHTHq-8U-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100wh;
+        height: 100vh;
+    }
+}

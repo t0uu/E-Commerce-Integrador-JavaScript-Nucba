@@ -1,0 +1,50 @@
+@media(min-width:320px){
+    /* Section Productos */
+    .SectionProduct{
+        justify-content: center;
+        display: grid;
+        align-items: center;
+        align-self: center;
+        grid-template-columns: auto auto auto;
+    }
+    .Product-Section{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Product-Section .ImgProduct{
+        width:15rem;
+        height: 15rem;
+    }
+    #Filtrar{
+        align-items: center;
+        cursor: pointer;
+    }
+    .ContainerFilter{
+        margin: auto;
+        text-align: left;
+        border-bottom: 1px solid black;
+        width: 90%;
+    }
+    .ContainerBtns{
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .switchContainerBtns{
+        display: none;
+
+    }
+    .ContainerBtns button{
+        text-transform: uppercase;
+        background-color: transparent;
+        border: none;
+        margin: 0rem 1rem;
+    }
+    .ContainerBtns button:hover{
+        color: rgb(78, 78, 78);
+        cursor: pointer;
+    }
+}

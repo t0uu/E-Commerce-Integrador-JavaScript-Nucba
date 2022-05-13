@@ -1,0 +1,45 @@
+@media(min-width:320px){
+    .SectionNuevaColeccion{
+        display: flex;
+        flex-direction: column;
+    }
+    .ImgPresent{
+        width: 100%;
+        height: 100%;
+        background-color:#181818;
+    }
+    .ImgPresent img{
+        width: 100%;
+        height: 100%;
+
+    }
+    .Collecion{
+        background-color:#181818;
+        width: 100%;
+        padding: 0.6rem 0rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .ContColl h2{
+        color: #E1E1E1;
+        margin: 1rem 0rem 1rem 4rem;
+        text-align: left;
+        font-weight: 300;
+        font-size: 0.6rem
+    }
+    .ContColl .ImgCollecion{
+        width: 40%;
+    }
+    .AnclaColl{
+        text-align: right;
+        margin: 1rem 6rem 1rem 0rem;
+     
+        font-size: 0.6rem;
+    }
+    .AnclaColl a{
+        color: #E1E1E1;
+        font-weight: 300;
+    }
+
+}

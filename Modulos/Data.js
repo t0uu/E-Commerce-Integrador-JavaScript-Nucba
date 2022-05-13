@@ -1,4 +1,4 @@
- const Productos = [
+const Productos = [
     {
         Titulo: 'Jacket Jean',
         Precio: 7000,

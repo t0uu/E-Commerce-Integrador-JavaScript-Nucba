@@ -1,0 +1,52 @@
+@media(min-width:320px){
+    .UsuarioSection{
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+    }
+    .UsuarioSection .NuevosUsuarios{
+        display: flex;
+        margin: 1rem;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .NuevosUsuarios p{
+        font-size: 1rem;
+        margin: 1.5rem;
+        width: 15rem;
+        text-align: center;
+    }
+    .NuevosUsuarios button{
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 1rem;
+    }
+    .IniciarSesion {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+
+    }
+    .IniciarSesion form{
+        display: flex;
+        flex-direction: column;
+    }
+    .FormUser input{
+        width: 12rem;
+        margin: 1rem;
+    }
+    .FormUser button{
+        width: 10rem;
+        background-color: black;
+        color: white;
+        padding:1rem;
+        border: none;
+        cursor: pointer;
+        margin: auto;
+    }
+}

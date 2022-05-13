@@ -1,0 +1,30 @@
+@keyframes move {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+@media (min-width:320px){
+
+    
+    .Banner{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .Banner img{
+        margin: 0;
+        padding: 0;
+        margin: 10px;
+        animation: move 9s infinite linear;
+    }
+
+}

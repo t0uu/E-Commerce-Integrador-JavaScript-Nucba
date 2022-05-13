@@ -1,0 +1,33 @@
+@media(min-width:320px){
+.Newsletter {
+    margin: 1rem;
+}
+.Newsletter h2{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.Newsletter .form{
+    display: flex;
+    justify-content: center;
+}
+.form input{
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    font-size: 0.7rem;
+    text-transform:uppercase;
+    text-decoration:underline;
+    /* border: 1px solid rgba(0, 0, 0, 0.514); */
+    margin: 1rem 0rem;
+}
+.Newsletter p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom:4rem;
+}
+}

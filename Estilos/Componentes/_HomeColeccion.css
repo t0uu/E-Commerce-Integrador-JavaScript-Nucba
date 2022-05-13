@@ -21,6 +21,10 @@
         display: flex;
         align-items: center;
     }
+
+    .ContColl{
+        margin: auto;
+    }
     .ContColl h2{
         color: #E1E1E1;
         margin: 1rem 0rem 1rem 4rem;
@@ -29,7 +33,7 @@
         font-size: 0.6rem
     }
     .ContColl .ImgCollecion{
-        width: 40%;
+        width: 50%;
     }
     .AnclaColl{
         text-align: right;

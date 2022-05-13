@@ -1,7 +1,7 @@
 const FormUser = document.getElementById('FormUser');
 const emailUser = document.getElementById('emailUser');
 const passwordUser = document.getElementById('passwordUser');
-FormUser.addEventListener('submit', e => {
+FormUser?.addEventListener('submit', e => {
     e.preventDefault()
     let Exito = false
     if(emailUser.value === window.localStorage.getItem("Email")){

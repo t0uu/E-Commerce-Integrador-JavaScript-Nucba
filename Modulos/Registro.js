@@ -27,6 +27,7 @@ Registro?.addEventListener('submit', e => {
 
     }else{
         success(nombreCuenta, 'Correcto!')
+        localStorage.setItem("Nombre", nombreCuenta.value)
         correcto = true;
     }
 
@@ -34,6 +35,7 @@ Registro?.addEventListener('submit', e => {
         errorP(apellidoCuenta, 'El Apellido no puede estar vacio!')
         correcto = false
     }else{
+        localStorage.setItem("Apellido", apellidoCuenta.value)
         success(apellidoCuenta, 'Correcto!')
         correcto = true;
 

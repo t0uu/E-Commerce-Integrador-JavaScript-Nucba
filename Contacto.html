@@ -42,23 +42,23 @@
     <p>¿Tenes Dudas?,¿Algún problema con nuestros Productos?</p>
 
     <h2>Contactanos</h2>
-    <form>
+    <form id="formContacto">
         <label for="nombre">Nombre
-        </label>
-            <input type="text" name="nombre" id="nombre">
-            <span>a</span>
+            <input type="text" name="nombre" id="nombreContacto">
+            <small></small>
+            </label>
         <label for="apellido">Apellido
+            <input type="text" name="apellido" id="apellidoContacto">
+            <small></small>
         </label>
-            <input type="text" name="apellido" id="apellido">
-            <span>a</span>
         <label for="email">Email
+            <input type="email" name="email" id="emailContacto">
+            <small></small>
         </label>
-            <input type="email" name="email" id="email">
-            <span>a</span>
         <label for="textarea">Comentario
+            <textarea name="textarea" id="textareaContacto" cols="30" rows="10"></textarea>
+            <small></small>
         </label>
-            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-            <span>a</span>
             
             <button type="submit" class="btnForm">ENVIAR</button>
         </form>
@@ -86,5 +86,7 @@
         </div>
     </footer>
     <script type="module" src="/index.js"></script>
+    <script src="/Modulos/Contact.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

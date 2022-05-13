@@ -4,8 +4,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 1rem;
-        padding: 5rem;
+        margin: 2rem;
+        padding: 2rem;
     }
     .NosotrosSection h2{
         font-size: 2rem;

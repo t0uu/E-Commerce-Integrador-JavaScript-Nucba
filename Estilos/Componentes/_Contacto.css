@@ -18,12 +18,16 @@
         visibility: hidden;
     }
     form input{
-        width: 15rem;
+        width: 16rem;
         padding:0.5rem;
         margin: 0.3rem;
         border-radius: 5px;
         border: 1px solid rgba(0, 0, 0, 0.393);
         text-align: left;
+    }
+    form label{
+        display: flex;
+        flex-direction: column;
     }
     form .btnForm{
         background-color: black;

@@ -1,0 +1,26 @@
+@media(min-width:320px){
+    .CrearCuenta{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .Registro{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 20%;
+    }
+    .Registro label{
+        text-align: left;
+    }
+    .Registro input{
+        width: 100%;
+    }
+    .error{
+        color: red;
+    }
+}

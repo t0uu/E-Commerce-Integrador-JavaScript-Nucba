@@ -1,6 +1,10 @@
 @media(min-width:320px){
 .Newsletter {
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 .Newsletter h2{
     font-size: 1.1rem;
@@ -10,7 +14,10 @@
 }
 .Newsletter .form{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-direction: column;
+
+    margin: auto;
 }
 .form input{
     padding: 0.6rem 2rem;
@@ -20,8 +27,15 @@
     font-size: 0.7rem;
     text-transform:uppercase;
     text-decoration:underline;
+    background-color: transparent;
     /* border: 1px solid rgba(0, 0, 0, 0.514); */
     margin: 1rem 0rem;
+}
+.form .TextValidation{
+    color: red;
+}
+ .success{
+color: #39EB3C;
 }
 .Newsletter p{
     text-align: center;

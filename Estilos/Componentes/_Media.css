@@ -87,7 +87,14 @@
     .Newsletter {
         max-width: 500px;
         margin: 1.2rem auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
     }
+     .success{
+        color: #39EB3C;
+        }
     .Newsletter h2{
         font-size: 2rem;
     }

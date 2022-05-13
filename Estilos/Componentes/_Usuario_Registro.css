@@ -18,7 +18,8 @@
         width: 15rem;
         text-align: center;
     }
-    .NuevosUsuarios button{
+    .NuevosUsuarios .CreateAccount{
+        text-decoration: none;
         background-color: black;
         color: white;
         border: none;
